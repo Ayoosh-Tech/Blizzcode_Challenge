@@ -1,0 +1,127 @@
+.main{
+    background-color: #F0EAD6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-title h1{
+    font-family: young-serif;
+
+}
+
+.pix{
+    border-radius: 5px;
+    height: 320px;
+}
+
+.sub-head-title {
+    font-family: young-serif;
+    color: #aa2467;
+    font-weight: bold;
+}
+
+.second-head-title {
+    background-color: #faebe9;
+    border-radius: 12px;
+    font-family: cursive;
+    margin: 10px;
+    padding: 10px;
+}
+
+.second-head-title p{
+font-family: cursive; 
+color: #872657; 
+font-weight: bold; 
+padding-left: 20px;
+}
+
+.content {
+    background-color: #FFFFFF;
+    display: grid;
+    border-radius: 10px;
+    width: 600px;
+    font-family: cursive;
+    padding: 20px;
+    margin: 50px 50px;
+}
+
+.nutrition-table {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 10px;
+
+}
+
+.nutrient-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+
+.value {
+    width: 70%;
+    color: #872657;
+    font-weight: bold;
+    align-items: start;
+}
+
+.hr {
+    height: 1px;
+}
+
+.nutrient {
+    width: 30%;
+    text-align: start;
+}
+
+.nutrition-detail {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+li {
+    padding: 5px;
+    margin: 0px;
+}
+
+li::marker {
+    color: #872657;
+}
+
+@media (max-width: 767px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        padding-left: 30px;
+    }
+    .main {
+        width: 80%;
+    }
+
+    .content {
+        width: 50%;
+        font-size: 0.6rem;
+    }
+
+    .pix {
+        width: 80%;
+        padding-left: 30px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .pix {
+        width: 600px;
+    }
+    
+    .main {
+        width: 100%;
+    }
+}
